@@ -1,3 +1,77 @@
-h1{
+/******* google fonts *******/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+/**************************/
+
+/*$$$$$$$$$$$$$$$ common styles or utilities $$$$$$$$$$$$$$$*/
+
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/********* first part rectangle *********/
+.rectangle{
+
+    position: absolute;
+    width: 1440px;
+    height: 677px;
+    left: 0px;
+    top: 0px;
+    background-color: brown;
+    color: burlywood;
+
+    
+} 
+
+.rectangle:hover{
+    background-color: burlywood;
     color: brown;
+}
+
+
+/*################ Conmebol Copa America 2021 ############*/
+/* ############ it is in the rectangle part #############*/
+.title-section{
+    position: absolute;
+    width: 485px;
+    height: 230px;
+    left: 156px;
+    top: 207px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+}
+
+/*&&&&&&&&& Watch Live &&&&&&&&&&&& */
+ /*&&&&&&&&&&& it is in the rectangle part and it's position is under the title &&&&&&&&&& */
+.button{
+padding: 5px 10px;
+position: absolute;
+width: 110px;
+height: 23px; 
+background-color: lightsteelblue;
+text-decoration: none;
+color: white;
+bottom: 145px;
+right: 80%;
+}
+
+.button:hover{
+    background-color: steelblue;
+}
+
+/*%%%%%%%%%%%%%%%%%%%% this image is in the rectangle part %%%%%%%%%%%%%%*/
+
+.rectangle img{
+    position: absolute;
+width: 525px;
+height: 425px;
+left: 650px;
+top: 164px;
+
 }
