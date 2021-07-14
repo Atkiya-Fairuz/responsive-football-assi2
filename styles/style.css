@@ -13,7 +13,7 @@ body{
 }
 
 /********* first part rectangle *********/
-/* .rectangle{
+.rectangle{
 
     position: absolute;
     width: 1440px;
@@ -29,12 +29,12 @@ body{
 .rectangle:hover{
     background-color: burlywood;
     color: brown;
-} */
+} 
 
 
 /*################ Conmebol Copa America 2021 ############*/
 /* ############ it is in the rectangle part #############*/
-/* .title-section{
+.title-section{
     position: absolute;
     width: 485px;
     height: 230px;
@@ -45,11 +45,11 @@ body{
     font-weight: bold;
     font-size: 64px;
     line-height: 80px;
-} */
+} 
 
 /*&&&&&&&&& Watch Live &&&&&&&&&&&& */
  /*&&&&&&&&&&& it is in the rectangle part and it's position is under the title &&&&&&&&&& */
-/* .button{
+.button{
 padding: 5px 10px;
 position: absolute;
 width: 110px;
@@ -59,15 +59,15 @@ text-decoration: none;
 color: white;
 bottom: 145px;
 right: 80%;
-} */
+} 
 
-/* .button:hover{
+ .button:hover{
     background-color: steelblue;
-}  */
+}  
 
 /*%%%%%%%%%%%%%%%%%%%% this image is in the rectangle part %%%%%%%%%%%%%%*/
 
-/* .rectangle img{
+ .rectangle img{
     position: absolute;
 width: 525px;
 height: 425px;
@@ -81,7 +81,7 @@ top: 164px;
     position: relative;
     flex-direction: column;
 
-} */
+} 
 /* ******************* */
 /* rectangle finished  */
 /* ******************* */
@@ -270,6 +270,17 @@ top: 3080px;
                 top: 4000px;
 
             }
+
+            .new{
+                display: flex;
+                text-align: center;
+                position: static;
+                left: 27.06%;
+                right: 54.12%;
+                margin: 0px 14px;
+
+
+            }
              
 
             /***************************** media ****************************/
@@ -285,7 +296,7 @@ top: 3080px;
                flex-direction: column;
                 grid-template-columns: repeat(1,1fr);
             }
-             footer, .insertion-of-news{
+             footer, .third-one{
                 
                  flex-direction: column;
                  
