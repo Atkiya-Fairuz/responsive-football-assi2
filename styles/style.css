@@ -13,7 +13,7 @@ body{
 }
 
 /********* first part rectangle *********/
-.rectangle{
+/* .rectangle{
 
     position: absolute;
     width: 1440px;
@@ -29,12 +29,12 @@ body{
 .rectangle:hover{
     background-color: burlywood;
     color: brown;
-}
+} */
 
 
 /*################ Conmebol Copa America 2021 ############*/
 /* ############ it is in the rectangle part #############*/
-.title-section{
+/* .title-section{
     position: absolute;
     width: 485px;
     height: 230px;
@@ -45,11 +45,11 @@ body{
     font-weight: bold;
     font-size: 64px;
     line-height: 80px;
-}
+} */
 
 /*&&&&&&&&& Watch Live &&&&&&&&&&&& */
  /*&&&&&&&&&&& it is in the rectangle part and it's position is under the title &&&&&&&&&& */
-.button{
+/* .button{
 padding: 5px 10px;
 position: absolute;
 width: 110px;
@@ -59,19 +59,219 @@ text-decoration: none;
 color: white;
 bottom: 145px;
 right: 80%;
-}
+} */
 
-.button:hover{
+/* .button:hover{
     background-color: steelblue;
-}
+}  */
 
 /*%%%%%%%%%%%%%%%%%%%% this image is in the rectangle part %%%%%%%%%%%%%%*/
 
-.rectangle img{
+/* .rectangle img{
     position: absolute;
 width: 525px;
 height: 425px;
 left: 650px;
 top: 164px;
 
+} 
+
+
+.container{
+    position: relative;
+    flex-direction: column;
+
+} */
+/* ******************* */
+/* rectangle finished  */
+/* ******************* */
+
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% second part %%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+
+
+/* class="inside-part",it is the "player" class*/
+
+.inside-part{
+    
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: static;
+width: 325px;
+height: 525px;
+left: 15px;
+top: 15px;
+box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+
 }
+
+
+/* it is the image of class="inside-part" */
+.inside-part img{
+width: 300px;
+height: 256px;
+left: 0px;
+top: 0px;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 16px 15px;
+position: static;
+}
+
+
+/* class="player.name" ..................................... */
+.player-name{
+
+position: static;
+width: 300px;
+top: 0%;
+bottom: 74.03%;
+margin-left: 18px;
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 40px;
+}
+
+/*********** A football player or footballer is a sportsperson who plays one of the different types of 
+football.*****************/
+.about-player{
+display: grid;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+position: static;
+width: 300px;
+height: 154px;
+left: 0px;
+top: 272px;
+margin-left: 18px; 
+bottom: 74.03%;
+top: 32.47%;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+}
+
+/* main class of the second part */
+.player{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 45px;
+    column-gap: 30px;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px;
+    position: absolute;
+    width: 330px;
+    height: 456px;
+    left: 180px;
+    top: 747px;
+    background-color:white;
+    }
+
+
+    .insertion-of-news{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 466px;
+height: 309px;
+left: 195px;
+top: 3080px;
+    }
+
+    .latest-news{
+        color: burlywood;
+        background-color: brown;
+        text-align: center;
+        font-size: 700;
+        font-weight: bold;
+        height: 50px;
+        width: 1040px;
+        padding: 2px;
+        } 
+
+        .latest-news:hover{
+            color: brown;
+            background-color: burlywood;
+        }
+ 
+
+     
+
+
+
+
+          .news{
+            text-align: center;
+            box-shadow: grey 10px 10px 20px 20px;
+            padding: 5px;
+            
+          }
+             
+        
+
+            .fourth-part{
+                text-align: center;
+                color: brown;
+
+             }
+            .fourth-part:hover{
+                color: burlywood;
+            }
+
+            .button2{
+                padding: 5px 10px;
+                width: 110px;
+                height: 23px; 
+background-color: lightsteelblue;
+text-decoration: none;
+color: white;
+text-align: center;
+margin-right: 20%;
+
+            }
+
+            .button:hover{
+                background-color:steelblue ;
+            } 
+
+            .footer-img{
+                display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 483.87px;
+height: 213px;
+left: 475px;
+top: 4000px;
+
+            }
+             
+  
+        
+
+
+        
+
+
+
+
+
+
+
+
