@@ -177,7 +177,7 @@ line-height: 26px;
     background-color:white;
     }
 
-
+/*********** it is in the second section *********************/
     .insertion-of-news{
 display: flex;
 flex-direction: column;
@@ -190,6 +190,9 @@ height: 309px;
 left: 195px;
 top: 3080px;
     }
+
+
+    /*%%%%%%%%%%%% Latest News %%%%%%%%%%%%%%%%%%*/
 
     .latest-news{
         color: burlywood;
@@ -211,7 +214,7 @@ top: 3080px;
      
 
 
-
+/**************** class="news" **************/
 
           .news{
             text-align: center;
@@ -221,8 +224,9 @@ top: 3080px;
           }
              
         
-
-            .fourth-part{
+          /*############## <h1 class="fourth-part">Want to know more about FOOTBALL click here:</h1>
+           ################### <a class="button2" href="">click here</a> */
+           .fourth-part{
                 text-align: center;
                 color: brown;
 
@@ -231,37 +235,95 @@ top: 3080px;
                 color: burlywood;
             }
 
+            /* %%% button2 %%%%%%%%%% */
+
             .button2{
                 padding: 5px 10px;
                 width: 110px;
                 height: 23px; 
-background-color: lightsteelblue;
-text-decoration: none;
-color: white;
-text-align: center;
-margin-right: 20%;
+                background-color: lightsteelblue;
+                text-decoration: none;
+                color: white;
+                text-align: center;
+                margin-right: 20%;
 
             }
 
             .button:hover{
+               
                 background-color:steelblue ;
             } 
 
-            .footer-img{
-                display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 0px;
 
-position: absolute;
-width: 483.87px;
-height: 213px;
-left: 475px;
-top: 4000px;
+            /* &&&&&&&&&&& footer &&&&&&&&&&&&&&&& */
+
+            footer{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 0px;
+                position: absolute;
+                width: 483.87px;
+                height: 213px;
+                left: 475px;
+                top: 4000px;
 
             }
              
+
+            /***************************** media ****************************/
+            /* for mobile */
+
+            @media only screen and (max-width:688px){
+                .container{
+                width: 100%;
+            }
+
+            .player {
+               
+               flex-direction: column;
+                grid-template-columns: repeat(1,1fr);
+            }
+             footer, .insertion-of-news{
+                
+                 flex-direction: column;
+                 
+             }
+             
+            
+
+            
+
+            }
+
+            /* for tablet */
+
+            @media only screen and (min-width:688px) and(max-width){
+                 .container{
+                width: 100%;
+            }
+
+
+                .player {
+               flex-direction: column;
+                grid-template-columns: repeat(2,1fr);
+            }
+
+            footer, .insertion-of-news{
+                grid-template-columns: repeat(1,1fr);
+                
+                 flex-direction: column;
+                 
+             }
+
+
+                
+            }
+
+            
+
+
   
         
 
